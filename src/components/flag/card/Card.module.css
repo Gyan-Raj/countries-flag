@@ -1,0 +1,51 @@
+.container {
+  height: 15rem;
+  width: 12rem;
+  /* background-color: black; */
+  /* gap: 2rem; */
+  border-radius: 1rem;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  margin: 0.5rem;
+  border: 1px solid rgb(96, 72, 72);
+}
+/* .imageWrapper {
+  height: 90%;
+  width: 90%;
+  background-color: white;
+  border-radius: 1rem;
+} */
+.imageWrapper {
+  height: 60%;
+  width: 100%;
+  /* background-color: red; */
+  border-radius: 1rem;
+  /* padding: 10px; */
+  /* margin: 10px; */
+  /* border: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 90%;
+  width: 63%;
+  /* background-color: white; */
+}
+.nameWrapper {
+  height: 30%;
+  width: 100%;
+  /* background-color: aqua; */
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.name {
+  height: 80%;
+  width: 90%;
+  /* background-color: aqua; */
+  font-size: 1rem;
+}
