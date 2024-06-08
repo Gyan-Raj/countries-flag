@@ -21,21 +21,22 @@ function Flag() {
   //   console.log(countries[0].name.common);
   return (
     <div className={style.container}>
-      {countries.map((ele) => {
-        // console.log(ele.name.official);
-        // console.log(ele.flags);
-        // console.log(ele.flags.alt);
-        // console.log(ele.flags.png);
-        return (
-          <Card
-            data={{
-              name: ele.name.official,
-              flag: ele.flags.png,
-              alt: ele.flags.alt,
-            }}
-          />
-        );
-      })}
+      {countries.length > 0 &&
+        countries.map((ele) => {
+          // console.log(ele.name.official);
+          // console.log(ele.flags);
+          // console.log(ele.flags.alt);
+          // console.log(ele.flags.png);
+          return (
+            <Card
+              data={{
+                name: ele.name.official,
+                flag: ele.flags.png,
+                alt: ele.flags.alt,
+              }}
+            />
+          );
+        })}
     </div>
   );
 }
