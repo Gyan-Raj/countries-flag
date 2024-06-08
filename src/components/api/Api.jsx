@@ -5,7 +5,6 @@ export const fetchData = async () => {
     // console.log(response);
     return response;
   } catch (err) {
-    // console.log(err);
-    return err;
+    console.log(err);
   }
 };
